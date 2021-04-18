@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@android:color/black"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical"
+    tools:context=".MovieDetailsFragment">
+
+    <ImageView
+        android:id="@+id/MoviePic"
+        android:layout_width="300dp"
+        android:layout_height="325dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="25dp"
+        android:contentDescription="@string/moviePic" />
+
+    <TextView
+        android:id="@+id/MovieTitle"
+        android:layout_width="370dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/originalLanguage"
+        android:layout_width="370dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/MovieReleaseDate"
+        android:layout_width="370dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/adult"
+        android:layout_width="370dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/overview"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/popularity"
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/voteAverage"
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:textAlignment="center" />
+
+</LinearLayout>
